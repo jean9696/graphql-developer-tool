@@ -1,0 +1,1 @@
+export {GraphqlHighlight} from './GraphqlHighlight'

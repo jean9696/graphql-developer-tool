@@ -1,0 +1,15 @@
+{
+  "name": "GraphQL developer tool",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "devtools_page": "devtool/index.html",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "*.svg" ],
+      "matches": [ "https://res.cloudinary.com/*" ]
+    }
+  ]
+}
